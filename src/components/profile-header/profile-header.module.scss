@@ -1,0 +1,41 @@
+
+.lang {
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: #3F51B4;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.langBlock {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 16px 9px 16px;
+    border-radius: 14px;
+    background-color: #EEF4FF;
+}
+
+.profile {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+.profBlock {
+    padding: 7px 24px 7px 24px;
+    border-radius: 14px;
+    background-color: #3F51B5;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.proMain {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

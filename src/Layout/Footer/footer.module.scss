@@ -1,0 +1,42 @@
+.list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.MainBlock {
+    background: var(--gray-on-dark);
+    padding: 12px 0 34px 0;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 114%;
+    color: var(--white);
+    margin-bottom: 12px;
+}
+
+.link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--white);
+}
+
+.secTitlte {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 114%;
+    color: var(--white);
+    margin-bottom: 12px;
+}
+
+.cardlist {
+    display: flex;
+}
+
+.block {
+    display: flex;
+    gap: 130px;
+}
