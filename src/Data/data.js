@@ -61,7 +61,7 @@ export const Books = [
   {
     id: 2,
     img: books2,
-    title: "1984",
+    title: "Rich dad poor dad",
     text: "SIYOSAT, FANTASTIKA",
     rating: rating,
     listening: lisbook,
@@ -69,7 +69,7 @@ export const Books = [
   {
     id: 3,
     img: books3,
-    title: "1984",
+    title: "Код 8",
     text: "SIYOSAT, FANTASTIKA",
     rating: rating,
     listening: lisbook,
@@ -77,7 +77,7 @@ export const Books = [
   {
     id: 4,
     img: books4,
-    title: "1984",
+    title: "Даниел КИЗ",
     text: "SIYOSAT, FANTASTIKA",
     rating: rating,
     listening: lisbook,
@@ -85,7 +85,7 @@ export const Books = [
   {
     id: 5,
     img: books5,
-    title: "1984",
+    title: "Бепарволикнинг но...",
     text: "SIYOSAT, FANTASTIKA",
     rating: rating,
     listening: lisbook,
@@ -101,7 +101,7 @@ export const Books = [
   {
     id: 7,
     img: books7,
-    title: "1984",
+    title: "Rich dad poor dad",
     text: "SIYOSAT, FANTASTIKA",
     rating: rating,
     listening: lisbook,
@@ -109,7 +109,23 @@ export const Books = [
   {
     id: 8,
     img: books8,
-    title: "1984",
+    title: "Код 8",
+    text: "SIYOSAT, FANTASTIKA",
+    rating: rating,
+    listening: lisbook,
+  },
+  {
+    id: 9,
+    img: books4,
+    title: "Даниел КИЗ",
+    text: "SIYOSAT, FANTASTIKA",
+    rating: rating,
+    listening: lisbook,
+  },
+  {
+    id: 10,
+    img: books5,
+    title: "Бепарволикнинг но...",
     text: "SIYOSAT, FANTASTIKA",
     rating: rating,
     listening: lisbook,

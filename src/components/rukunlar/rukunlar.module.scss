@@ -1,0 +1,17 @@
+.imgBlock {}
+
+.block {
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--white);
+    bottom: 17px;
+    left: 16px;
+    right: 16px;
+}

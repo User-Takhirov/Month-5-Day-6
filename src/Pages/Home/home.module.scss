@@ -1,0 +1,58 @@
+.rukunlar {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.rukunTitle {
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    color: var(--text);
+}
+
+.BookSection {
+    display: grid;
+    align-items: center;
+    gap: 24px;
+    grid-template-columns: repeat(5, 240px);
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.Booktitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    color: var(--text);
+    margin-bottom: 32px;
+}
+
+.AudioBooks {
+    display: grid;
+    align-items: center;
+    gap: 24px;
+    grid-template-columns: repeat(5, 240px);
+    justify-content: center;
+    margin-bottom: 93px;
+}
+
+.audotitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    color: var(--text);
+}
+
+.audioTitleBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.slider {
+    cursor: pointer;
+}

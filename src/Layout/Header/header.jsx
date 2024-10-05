@@ -9,34 +9,41 @@ export const Header = () => {
     <>
       <div className="container">
         <div className={style.HeaderBlock}>
-          <div className="container">
-            <div className={style.mainBlock}>
-              <div>
-                <img src={icon} alt="#" />
+          <div className={style.mainBlock}>
+            <div>
+              <img src={icon} alt="#" />
+            </div>
+            <div className={style.block}>
+              <div className={style.selectBlock}>
+                <img src={cube} alt="#" />
+                <select className={style.select}>
+                  <option>Рукнлар</option>
+                </select>
               </div>
-              <div className={style.block}>
-                <div className={style.selectBlock}>
-                  <img src={cube} alt="#" />
-                  <select className={style.select}>
-                    <option>Рукнлар</option>
-                  </select>
-                </div>
-                <div className={style.inputBlock}>
-                  <input
-                    className={style.input}
-                    type="text"
-                    placeholder="Қидириш"
-                  />
-                </div>
+              <div className={style.inputBlock}>
+                <input
+                  className={style.input}
+                  type="text"
+                  placeholder="Қидириш"
+                />
               </div>
             </div>
           </div>
           <ProfileHeader />
         </div>
       </div>
-      <Link to={"/"}>Home</Link>
-      <Link to={"/books"}>Books</Link>
-
+      <hr className="hr" />
+      <div className="container">
+        <div className={style.linkBlock}>
+          <Link className={style.link} to={"/"}>
+            Home
+          </Link>
+          <Link className={style.link} to={"/books"}>
+            Books
+          </Link>
+        </div>
+      </div>
+      <hr className="hr" />
     </>
   );
 };

@@ -41,6 +41,7 @@ body {
     overflow-x: hidden;
     font-family: "Cairo", sans-serif;
     margin: 0;
+    height: 100vh;
 }
 
 .container {
@@ -72,4 +73,14 @@ body {
     --dark-primary: #131c4b;
     --dark-gray-on-dark: #8e9bdf;
     --primary-soft: #eef4ff;
+}
+
+.hr {
+    opacity: 0.5;
+    background-color: #f0f0f0;
+
+}
+
+.dottedhr {
+    border: 1px dashed #aaa;
 }

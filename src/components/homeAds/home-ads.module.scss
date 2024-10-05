@@ -1,0 +1,28 @@
+.title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    color: #11142d;
+    margin-bottom: 7px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 11px;
+    color: #aaa;
+}
+
+.item {
+    padding: 26px 26px 26px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 322px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}

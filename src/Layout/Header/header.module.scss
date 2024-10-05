@@ -74,4 +74,18 @@
 
 .HeaderBlock {
     display: flex;
+    justify-content: space-between;
+}
+
+.linkBlock {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 9px 0;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary);
 }

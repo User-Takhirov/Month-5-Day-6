@@ -1,0 +1,61 @@
+.imgs {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #11142d;
+}
+
+.text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 171%;
+    color: #11142d;
+    margin-bottom: 16px;
+    width: 960px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
+
+.TitleBlock {
+    display: flex;
+    gap: 94px;
+}
+
+.ganre {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primary);
+}
+
+.miniContent {
+    display: flex;
+    gap: 69px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.miniTitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+.miniText {
+    font-weight: 600;
+    font-size: 18px;
+    color: #11142d;
+}
