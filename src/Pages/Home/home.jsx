@@ -7,12 +7,14 @@ import { BookSection } from "../../components/BookSection";
 import { AudioBooks } from "../../components/AudioBooks";
 import slider from "../../assets/img/slider.svg";
 import { Link } from "react-router-dom";
+import { HomeHero } from "../Home-hero";
 export const Home = () => {
   return (
     <>
       <div className={style.MainBlock}>
         <div className="container">
           <div className={style.block}>
+            <HomeHero />
             <HomeAds />
             <div className={style.rukunlarBlock}>
               <h2 className={style.rukunTitle}>Рукнлар</h2>

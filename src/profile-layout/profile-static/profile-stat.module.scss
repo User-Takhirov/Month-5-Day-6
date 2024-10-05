@@ -52,3 +52,34 @@
     background-color: #f0f0f0;
     opacity: 0;
 }
+
+.nested {
+    display: flex;
+    gap: 40px;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 222%;
+    color: var(--text);
+    margin-bottom: 7px;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    background: var(--white);
+    border-radius: 4px;
+    padding: 28px 104px 42px 24px;
+    height: 245px;
+}
+
+.MainNested {
+    background-color: #fbfbfb;
+    padding-bottom: 100px;
+}
+

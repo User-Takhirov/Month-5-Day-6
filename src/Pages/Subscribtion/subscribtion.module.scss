@@ -1,0 +1,138 @@
+.title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 123%;
+    color: var(--white);
+    width: 331px;
+    padding-top: 32px;
+    padding-bottom: 80px;
+}
+
+.block {
+    background-color: #FF7F4D;
+    display: flex;
+    padding-left: 32px;
+    width: 966px;
+    height: 175px;
+    justify-content: space-between;
+    border-radius: 12px;
+    margin-bottom: 23px;
+
+}
+
+.secTitle {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    color: #11142d;
+    margin-bottom: 30px;
+}
+
+.MAinBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.selectTitle {
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--text);
+}
+
+.select {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: var(--dark-gray);
+    padding: 16px 100px 16px 12px;
+    width: 343px;
+    border-radius: 16px;
+    outline: none;
+    border: 1px solid #C4C4C4;
+}
+
+.selectBlock {
+    margin-bottom: 24px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #11142d;
+}
+
+.innerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.innerMainBlock {
+    width: 368px;
+    padding: 16px 9px 27px 15px;
+    background-color: var(--gray);
+    margin-bottom: 34px;
+}
+
+.innerTitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    margin-bottom: 16px;
+}
+
+.innerTitle1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+}
+
+.innerText {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--text);
+    margin-bottom: 16px;
+}
+
+.innerText1 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--primary);
+
+}
+
+.susbsBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 51px 121px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    background: var(--white);
+    border-radius: 4px;
+}
+
+.btn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    padding: 7px 131px;
+    background: var(--primary);
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+}

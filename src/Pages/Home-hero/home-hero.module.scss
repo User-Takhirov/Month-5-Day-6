@@ -1,0 +1,87 @@
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #242424;
+    margin-left: 32px;
+}
+
+.MainBlock {
+    margin-top: 14px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.block {
+    padding: 35px 65px 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 370px;
+    border-radius: 12px;
+    width: 1000px;
+    background-color: #EEF4FF;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    padding-bottom: 26px;
+    gap: 15px;
+}
+
+.mreaded {
+    padding-top: 14px;
+    margin-top: 10px;   
+}
+
+.link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #242424;
+}
+
+.booktitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.booktext {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 133%;
+    color: white;
+    margin-bottom: 104px;
+}
+
+.bookblock {
+    background-color: #3748A6;
+    width: 262px;
+    padding: 32px 27px 38px 22px;
+    border-radius: 12px;
+    height: 370px;
+}
+
+.btn {
+    padding: 12px 24px 12px 24px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #242424;
+    background-color: white;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    width: 210px;
+}

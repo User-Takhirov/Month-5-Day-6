@@ -1,0 +1,48 @@
+.MainBlock {
+    padding: 32px 0 152px 32px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    background: var(--white);
+    border-radius: 4px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    color: #11142d;
+    margin-bottom: 50px;
+}
+
+.block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 353px;
+}
+
+.innerTitle {
+    font-weight: 700;
+    font-size: 18px;
+    color: #11142d;
+    margin-bottom: 8px;
+}
+
+.innerText {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--negative);
+}
+
+.bookBlock {
+    display: flex;
+    align-items: center;
+    gap: 61px;
+}

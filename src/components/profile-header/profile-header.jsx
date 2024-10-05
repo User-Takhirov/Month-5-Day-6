@@ -16,7 +16,7 @@ export const ProfileHeader = () => {
         <div className={style.profBlock}>
           <img src={profile} alt="#" />
           <NavLink to={"/profile"} className={style.profile} href="#">
-            Кириш
+            Profile
           </NavLink>
         </div>
       </div>

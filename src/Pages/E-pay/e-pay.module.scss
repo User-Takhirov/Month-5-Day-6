@@ -1,0 +1,53 @@
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    color: #11142d;
+    margin-bottom: 31px;
+}
+
+.MainBlock {
+    padding: 32px 30px 78px 30px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    background: var(--white);
+    border-radius: 4px;
+}
+
+.balance {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #D9DCF0;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    color: var(--white);
+    padding-bottom: 22px;
+}
+
+.block {
+    background: var(--primary);
+    border-radius: 20px;
+    padding: 16px 0 0 26px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.btns {
+    width: 100%;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.03);
+    background: var(--white);
+    border: 1px solid #EDEDED;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 22px 0;
+    cursor: pointer;
+}
